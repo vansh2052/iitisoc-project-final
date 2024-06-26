@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Platform</title>
+    <link rel="stylesheet" href="style2.css">
+ 
+
+</head>
+<body>
+    <header>
+        <h1>Trading Platform</h1>
+        <p>Logged in as John Doe (Google Account)</p>
+    </header>
+    <main>
+        <section class="stock-list">
+            <h2>Stock List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Amount</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AAPL</td>
+                        <td>Apple Inc.</td>
+                        <td class="positive">139.95</td>
+                        <td>140.30</td>
+                        <td>8:40 EDT</td>
+                    </tr>
+                    <tr>
+                        <td>MSGS</td>
+                        <td>Madison Square Garden Entertainment Corp</td>
+                        <td class="negative">152.87</td>
+                        <td>2.7</td>
+                        <td>-</td>
+                    </tr>
+                    </tbody>
+            </table>
+        </section>
+        <section class="stock-chart">
+            <h2>AAPL - Apple Inc.</h2>
+            <canvas id="AAPLChart"></canvas>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
